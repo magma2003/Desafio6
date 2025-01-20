@@ -24,11 +24,18 @@ body {
 }
 
 /* IDPA */
-#Idpa-Section .image-top {
-  height: 250px;
+#Idpa-Section {
+  background-image: url("../img/bg-Idpa.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+}
+
+.Idpa-Shadow{
+  text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
 }
 
 /* Contacto */
